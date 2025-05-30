@@ -120,6 +120,25 @@ body {
     overflow: hidden;
   }
   
+/* unvisited link */
+a:link {
+  color: #ff66b2;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: #ff66b2;
+}
   .login-container {
     position: relative;
     width: 100%;
