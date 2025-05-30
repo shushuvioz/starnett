@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm.html</title>
+    <style>
+     body {
+    margin: 0;
+    padding: 0;
+    background-color: #fc81cb;
+    font-family: system-ui, 'Segoe UI', Tahoma, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  .container {
+    background: #111;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 60px rgba(255, 255, 255, 0.3);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 80px;
+    height: 90px;
+    margin-bottom: 20px;
+  }
+  
+  .facebook-btn {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #3b5897;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .divider  {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #3b5897;
+  }
+  .divider hr {
+    flex: 1;
+    border: none;
+    height: 10px;
+    background-color: #ff1327;
+  }
+  .divider span {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+  
+  .signup-form input[type="email"],
+  .signup-form input[type="password"],
+  .signup-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #fff;
+    background: #222;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .dob {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .dob-fields {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 5px;
+  }
+  
+  .dob-fields input {
+    width: 30%;
+    padding: 8px;
+    background: #222;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+  }
+  
+  .gender, .checkbox {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .signup-btn {
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    color: #3d3239f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  .terms {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #ccc;
+  }
+  
+    </style>
+</head>
+<body>
+        <div class="container">
+    <!-- Logo -->
+    <img src="c:\Users\Lenovo\Downloads\S (19) (1).png" alt="Logo" class="png">
+
+    <!-- Sign up with Facebook -->
+    <button class ="facebook-btn">SIGN UP WITH FACEBOOK</button> 
+   
+    <!-- Divider -->
+    <div class="divider">
+      <hr><span>or</span><hr>
+    </div>
+    
+    <!-- Signup Form -->
+    <form class="signup-form">
+      <input type="email" placeholder="Email" required>
+      <input type="email" placeholder="Confirm Email" required>
+      <input type="password" placeholder="Password" required>
+      <input type="text" placeholder="What should we call you?" required>
+
+      <div class="dob">
+        <label>Date of Birth:</label>
+        <div class="dob-fields">
+          <input type="text" placeholder="Month" required>
+          <input type="text" placeholder="Day" required>
+          <input type="text" placeholder="Year" required>
+        </div>
+      </div>
+
+      <div class="gender">
+        <label>Gender:</label>
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> Female</label>
+        <label><input type="radio" name="gender"> Non-binary</label>
+      </div>
+
+      <div class="checkbox">
+        <label><input type="checkbox"> Share my registration data with marketing providers</label>
+      </div>
+
+      <button type="submit" class="signup-btn">Sign Up</button>
+    </form>
+
+    <!-- Terms and Privacy -->
+    <p class="terms">
+      By signing up, you agree to our Terms and Privacy Policy.
+    </p>
+  </div>
+
+</body>
+</html>
