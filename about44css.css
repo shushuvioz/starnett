@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: hsl(330, 100%, 71%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    z-index: 1000;
+    color: white;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .nav-left {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: #ffd1e6;
+    border-bottom: 2px solid white;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nav-right input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .get-app-btn {
+    padding: 6px 12px;
+    background: white;
+    color: hsl(330, 100%, 71%);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .section {
+    padding: 100px 20px;
+    margin-top: 60px;
+    min-height: 100vh;
+    text-align: center;
+    background: #fdf6fa;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .auth-form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .auth-form input, .auth-form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .auth-form button {
+    background: hsl(330, 100%, 71%);
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: hsl(330, 100%, 71%);
+    color: white;
+  }
+
+
+.about {
+    padding: 3rem 10%;
+    text-align: center;
+    background: #fecff2;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #666; 
+
+  }
+  footer {
+    background-color: #ff66b2;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    position: relative;
+    bottom: 0;   
+
+  }
+   
